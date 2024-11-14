@@ -1,0 +1,67 @@
+header{
+    padding:5px;
+    padding-bottom: 20px;
+    position: sticky;
+    top:1px;
+    z-index: 2;
+}
+
+body{
+    background-color:azure;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: Homemade Apple;
+}
+
+h1{
+    font-family: Homemade Apple;
+    text-shadow: 3px 3px 6px rgb(248, 158, 173);
+}
+
+#reminder{
+    background-color: blanchedalmond;
+    width: 200px;
+    position:fixed;
+    bottom:0px;
+}
+
+#imgContainer{
+    position:relative;
+}
+
+#notebook{
+    height: 300px;
+    margin: 40px;
+}
+
+#journalText{
+    position:absolute;
+    top:140px;
+    left:245px;
+}
+
+#journalButton{
+    position:absolute;
+    top:240px;
+    left:280px;
+}
+
+footer{
+    padding-bottom: 10px;
+}
+
+/* margin: space around an element
+    float: allows other elements to flow around it
+    note: you can't apply width and height to inline elements
+    height & width: 100vh means viewport height (screen size)
+    */
+
+/* position:
+    relative: positioned relative to where it normally is
+    fixed: positioned relative to viewport
+    absolute: positioned relative to nearest ancestor
+    sticky: positioned based on scroll position
+    static: default position for an element*/
